@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="8Se-3s-kwJ">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="FqE-ID-Hr1">
+                                <rect key="frame" x="107" y="348" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="bUf-eD-d08"/>
+                                    <constraint firstAttribute="width" secondItem="FqE-ID-Hr1" secondAttribute="height" multiplier="1:1" id="lhe-4G-im5"/>
+                                    <constraint firstAttribute="height" constant="200" id="oKB-qD-vAd"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="FqE-ID-Hr1" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="7Wn-9K-sdg"/>
+                            <constraint firstItem="FqE-ID-Hr1" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="QfJ-s6-diJ"/>
+                            <constraint firstItem="FqE-ID-Hr1" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="TtL-DV-Hgk"/>
+                            <constraint firstItem="FqE-ID-Hr1" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="c87-t2-x52"/>
+                            <constraint firstItem="8Se-3s-kwJ" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="iXl-Hw-VCp"/>
+                            <constraint firstAttribute="bottom" secondItem="8Se-3s-kwJ" secondAttribute="bottom" id="kBS-gl-p8H"/>
+                            <constraint firstItem="8Se-3s-kwJ" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="pSp-sf-Xnk"/>
+                            <constraint firstItem="FqE-ID-Hr1" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="pxd-FR-jGx"/>
+                            <constraint firstItem="8Se-3s-kwJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="pzn-wV-rZd"/>
+                            <constraint firstItem="FqE-ID-Hr1" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="ybC-Ti-anJ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="374.18478260869568"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background" width="1501" height="2962"/>
+        <image name="logo" width="1024" height="1024"/>
+    </resources>
+</document>

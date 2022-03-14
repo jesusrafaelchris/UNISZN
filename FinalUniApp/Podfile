@@ -1,0 +1,23 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'FinalUniApp' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for FinalUniApp
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Database'
+  pod 'Firebase/Firestore'
+  pod 'Firebase/Storage'
+  pod 'Firebase/Messaging'
+  pod 'IQKeyboardManagerSwift'
+  pod 'Firebase/Crashlytics'
+  pod 'Firebase/Analytics'
+  pod 'Nuke', '~> 9.0'
+  pod 'SDWebImage', '~> 5.0'
+  pod "AnimatedGradientView"
+  pod 'AlgoliaSearchClient', '~> 8.0'
+  pod 'InstantSearch'
+end
